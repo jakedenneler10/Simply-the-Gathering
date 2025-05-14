@@ -30,7 +30,6 @@ fastify.get('/', async (request, reply) => {
                     cityName: "Anytown",
                     zipCode: "12345",
                     stateName: "CA",
-                    homeOwner: "John Doe"
                 }
             },
             {
@@ -41,7 +40,6 @@ fastify.get('/', async (request, reply) => {
                     cityName: "Springfield",
                     zipCode: "62704",
                     stateName: "IL",
-                    homeOwner: "Jane Smith"
                 }
             }
         ]
@@ -85,7 +83,6 @@ function getPeople() {
                 cityName: "Anytown",
                 zipCode: "12345",
                 stateName: "CA",
-                homeOwner: "John Doe"
             }
         },
         {
@@ -96,7 +93,6 @@ function getPeople() {
                 cityName: "Springfield",
                 zipCode: "62704",
                 stateName: "IL",
-                homeOwner: "Jane Smith"
             }
         },
         {
@@ -107,7 +103,6 @@ function getPeople() {
                 cityName: "Centerville",
                 zipCode: "75833",
                 stateName: "TX",
-                homeOwner: "Robert Johnson"
             }
         },
         {
@@ -118,7 +113,6 @@ function getPeople() {
                 cityName: "Greenville",
                 zipCode: "29601",
                 stateName: "SC",
-                homeOwner: "Emily Davis"
             }
         },
         {
@@ -129,7 +123,6 @@ function getPeople() {
                 cityName: "Hometown",
                 zipCode: "32003",
                 stateName: "FL",
-                homeOwner: "Michael Brown"
             }
         },
         {
@@ -140,7 +133,6 @@ function getPeople() {
                 cityName: "Lakeview",
                 zipCode: "55044",
                 stateName: "MN",
-                homeOwner: "Lisa Wilson"
             }
         },
         {
@@ -151,7 +143,6 @@ function getPeople() {
                 cityName: "Rivertown",
                 zipCode: "98001",
                 stateName: "WA",
-                homeOwner: "James Martinez"
             }
         },
         {
@@ -162,7 +153,6 @@ function getPeople() {
                 cityName: "Brookfield",
                 zipCode: "53005",
                 stateName: "WI",
-                homeOwner: "Angela Thompson"
             }
         },
         {
@@ -173,7 +163,6 @@ function getPeople() {
                 cityName: "Mountain View",
                 zipCode: "80439",
                 stateName: "CO",
-                homeOwner: "Kevin Anderson"
             }
         },
         {
@@ -184,7 +173,6 @@ function getPeople() {
                 cityName: "Sunnyvale",
                 zipCode: "94086",
                 stateName: "CA",
-                homeOwner: "Natalie Moore"
             }
         }
     ];
