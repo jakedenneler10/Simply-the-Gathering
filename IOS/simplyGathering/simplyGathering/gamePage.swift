@@ -7,30 +7,7 @@
 
 import SwiftUI
 
-class HomeOwner : ObservableObject {
-	var name : String = "John Doe"
-	var age : Int = 32
-	var ownerAddress : Address = Address()
-}
-
-let owner = HomeOwner()		//Allows us to grab from HomeOwner Class
-
-class Address : ObservableObject {
-	var street : String = "123 Main St"
-	var city : String = "Anytown"
-	var zip : String = "90210"
-	var state : String = "CA"
-}
-
-let address = Address()		//Reaches from Address Class
-
-class Game : ObservableObject {
-	var games: [String] = [""]
-	var gameType : String = ""
-	var isActive : Bool = false
-}
-
-let gameClass = Game()		// Reaches from Game Class
+let owner = HomeOwner(name: "John Doe", age: 32, ownerAddress: Address())
 
 struct gamePage: View {
     var body: some View {
@@ -52,8 +29,13 @@ struct gamePage: View {
 				
 			} // Title Bar
 			
-			Text("\(owner.name)")
+			userBar()
+			userBar()
+			userBar()
+			userBar()
 			
+			
+						
 			Spacer()
 			
 			ZStack{
